@@ -1,0 +1,28 @@
+@import url(./sanitize.css);
+
+.container {
+    border-bottom: 1px solid #000;
+    margin: 0;
+    width: auto;
+} header h1{
+    padding: 30px;
+    float: left;
+    font-size: 48px;
+    color: #000;
+} .link { 
+    padding-left:30px;
+    float: right;
+    border-left: 1px solid #000;
+    white-space: nowrap;
+} .link-indiv{
+
+}a img{
+        float: left;
+        margin-right: 20px;
+} main {
+    padding: 50px;
+    text-align: center;
+} a, a:hover, a:visited, a:active{
+    color: #666;
+    text-decoration: none;
+}

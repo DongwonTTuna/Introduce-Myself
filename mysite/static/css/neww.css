@@ -1,0 +1,59 @@
+html{
+    min-height:100vh
+}
+body{
+    margin:0;
+    min-height:100%;
+    font-family:"AvenirNextLTPro",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+code{
+    font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace
+}
+@font-face{
+    font-family:"Inter";
+    src:local("Inter"),url(/static/media/Inter-Regular.23917250.ttf) format("truetype")
+}
+@font-face{
+    font-family:"AvenirNextLTPro";
+    font-style:normal;
+    font-weight:900;
+    src:local("AvenirNextLTPro"),url(/static/media/font.1efd8667.woff2) format("woff2"),url(/static/media/font.c748c75b.woff) format("woff")
+}
+@font-face{
+    font-family:"AvenirNextLTPro";
+    font-style:normal;
+    font-weight:800;
+    src:local("AvenirNextLTPro"),url(/static/media/font.bfaf1b8c.woff2) format("woff2"),url(/static/media/font.58499615.woff) format("woff")
+}
+@font-face{
+    font-family:"AvenirNextLTPro";
+    font-style:normal;
+    font-weight:700;
+    src:local("AvenirNextLTPro"),url(/static/media/font.a2d86d67.woff2) format("woff2"),url(/static/media/font.8ba70b13.woff) format("woff")
+}
+@font-face{
+    font-family:"AvenirNextLTPro";
+    font-style:normal;
+    font-weight:600;
+    src:local("AvenirNextLTPro"),url(/static/media/font.73393915.woff2) format("woff2"),url(/static/media/font.05310c39.woff) format("woff")
+}
+@font-face{
+    font-family:"AvenirNextLTPro";
+    font-style:normal;
+    font-weight:400;
+    src:local("AvenirNextLTPro"),url(/static/media/font.dc09ea11.woff2) format("woff2"),url(/static/media/font.578f10c9.woff) format("woff")
+}
+@font-face{
+    font-family:"AvenirNextLTPro";
+    font-style:normal;
+    font-weight:200;
+    src:local("AvenirNextLTPro"),url(/static/media/font.a6bac918.woff2) format("woff2"),url(/static/media/font.2bb96461.woff) format("woff")
+}
+@font-face{
+    font-family:"AvenirNextLTPro";
+    font-style:normal;
+    font-weight:100;
+    src:local("AvenirNextLTPro"),url(/static/media/font.1cd9d1fd.woff2) format("woff2"),url(/static/media/font.b12efe0f.woff) format("woff")
+}
