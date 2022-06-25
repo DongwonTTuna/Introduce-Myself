@@ -1,11 +1,24 @@
-@import url(./sanitize.css);
+@import url(sanitize.css);
 
-
-body{
-
-
-} header h1{
+header h1{
+    padding: 30px;
+    float: left;
+    font-size: 48px;
+    color: #000;
+} .link { 
+    margin-top: 50px;
+    margin-right: 100px;
+    padding-left: 50px;
+    float: right;
+    clear: both;
+    border-left: 1px solid #000;
+} main {
+    padding: 50px;
     text-align: center;
-    background-color: black;
-    color: azure;
+}a, a:hover, a:visited, a:active{
+    color: #666;
+    text-decoration: none;
+} .container {
+    border-bottom: 1px solid #000;
+    margin: auto;
 }
