@@ -2,15 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Stoke&display=swap');
 html, body{
     background-color: rgb(238, 237, 237);
-    height: auto !important;
-    min-height: 100%;
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }.container{
     background-color: #fff;
     margin : 0 0;
     width: auto;
 }.link {
-    padding-top : 50px;
+    padding-top : 60px;
     white-space: nowrap;
 } .link-indiv{
     float: right;
@@ -18,30 +17,68 @@ html, body{
 }header h1{
     font-family: 'Stoke',sans-serif;
     padding: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     float: left;
     font-size: 48px;
     color: #000;
-} a, a:hover, a:visited, a:active{
+}.header a, a:hover, a:visited, a:active{
     color: #666;
     text-decoration: none;
-}.menu{
-    background-color: rgb(243, 240, 240);
-    margin: 0 0;
+} .menu{
+    margin: 0;
+    padding: 0;
+} .menu > li {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding: 1em;
-    padding-bottom: 5em;
-} .menu-indiv{
+    background-color: rgb(247, 243, 236);
     float: left;
-    margin-left: 3%;
-    margin-right: 5%;
+    padding: 20px;
+    width: 20%;
     text-align: center;
-    font-family: "Segoe UI";
-} main{
+    list-style-type: none;
+}.menu > li a {
+    display: block;
+    color: #000;
+}.menu > li a:hover {
+    color: #999;
+}.menu > li:hover {
+    background: #ebebeb;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}ul.second_ {
+    position: absolute;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    border-top: 1px solid #111;
+}.second_ li {
+    border-bottom: 1px solid #111;
+    list-style-type: none;
+    padding: 30px;
+}.menu > li.first_ {
+    position: relative;
+} li.first_ ul.second_ {
+    position: absolute;
+    top: 95px;
+    width: 100%;
+    background-color: rgb(247, 243, 236);
+    margin: 0 auto;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+} li.first_:hover ul.second_ {
+    top: 95px;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+main{
     background-color: rgb(250, 249, 249);
     margin: 0 0;
-    
     padding: 50px;
     text-align: center;
     padding-bottom: 100%;
