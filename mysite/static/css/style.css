@@ -24,7 +24,13 @@ html, body{
 }.header a, a:hover, a:visited, a:active{
     color: #666;
     text-decoration: none;
-} .menu{
+}
+
+
+/* メニューを表現*/
+
+
+.menu{
     margin: 0;
     padding: 0;
 } .menu > li {
@@ -62,14 +68,14 @@ html, body{
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 } .second_ li:hover {
-    background-color: rgb(225, 217, 204);
+    background-color: rgb(250, 214, 160);
 }.menu > li.first_ {
     position: relative;
 } li.first_ ul.second_ {
     position: absolute;
     top: 95px;
     width: 100%;
-    background-color: rgb(245, 235, 217);
+    background-color: rgb(250, 229, 189);
     margin: 0 auto;
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
@@ -90,7 +96,7 @@ html, body{
     top: -1px;
     left: 100%;
     width: 100%;
-    background: #fff2cd;
+    background: #ffe7a6;
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
 } li.first_ ul.second_ li ul.third_ li{
@@ -101,6 +107,8 @@ html, body{
 }.third_ li{ 
     list-style-type: none;
     border-bottom: 1px solid #111;
+} .third_ li:hover{
+    background-color: rgb(244, 212, 133);
 }
 
 
