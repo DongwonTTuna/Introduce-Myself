@@ -18,7 +18,7 @@ def main():
     execute_from_command_line(sys.argv)
 
 
-# python manage.py runsslserver 0.0.0.0:443 --certificate ../../../ssl/origin.pem --key ../../../ssl/priv.pem
+# python3 manage.py runsslserver 0.0.0.0:443 --certificate ../../../ssl/origin.pem --key ../../../ssl/priv.pem
 
 if __name__ == '__main__':
     main()

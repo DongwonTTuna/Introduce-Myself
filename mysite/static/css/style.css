@@ -54,17 +54,22 @@ html, body{
     opacity: 0;
     z-index: 1;
     border-top: 1px solid #111;
+    white-space: none;
 }.second_ li {
     border-bottom: 1px solid #111;
     list-style-type: none;
     padding: 30px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+} .second_ li:hover {
+    background-color: rgb(225, 217, 204);
 }.menu > li.first_ {
     position: relative;
 } li.first_ ul.second_ {
     position: absolute;
     top: 95px;
     width: 100%;
-    background-color: rgb(247, 243, 236);
+    background-color: rgb(245, 235, 217);
     margin: 0 auto;
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
@@ -72,6 +77,30 @@ html, body{
     top: 95px;
     visibility: visible;
     opacity: 1;
+} li.first_ ul.second_ li {
+    position: relative;
+}ul.third_ {
+    border-top: 1px solid #111;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+    opacity: 0;
+} li.first_ ul.second_ li ul.third_{
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    width: 100%;
+    background: #fff2cd;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+} li.first_ ul.second_ li ul.third_ li{
+    position : relative;
+} li.first_ ul.second_ li:hover ul.third_{
+    visibility: visible;
+    opacity: 1;
+}.third_ li{ 
+    list-style-type: none;
+    border-bottom: 1px solid #111;
 }
 
 
