@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
     <title>Introducing Dongwon Lee</title>
+    <base href="{% static '/'%}">
 </head>
 
 <body>
@@ -18,19 +19,19 @@
         <div class="linkd">
             <div class="link-indiv">
                 <a href="https://github.com/DongwonTTuna" target="_blank">
-                    <img src="../static/img/github.png" alt="Github" height="50" width="50">
+                    <img src="{% static 'img/github.png' %}" alt="Github" height="50" width="50">
                 </a>    
             </div>
             <div class="link-indiv">
                 <a href="https://www.linkedin.com/in/%E3%83%89%E3%83%B3%E3%82%A6%E3%82%A9%E3%83%B3-%E3%82%A4-baba75145/" target="_blank">
-                    <img src="../static/img/linkedln.png" alt="Linkedin" height="50" width="50">
+                    <img src="{% static 'img/linkedln.png' %}" alt="Linkedin" height="50" width="50">
                 </a>
             </div>
         </div>
     </div>
     <ul class="menu menuaa">
         <li class="first_">
-            <img src="../static/img/Menu1.png" alt="Program" height="55" width="165">
+            <img src="{% static 'img/Menu1.png' %}" alt="Program" height="55" width="165">
             <ul class="second_">
                 <li><a href="#">Go</a>
                     <ul class="third_">
@@ -41,7 +42,7 @@
                 </li>
                 <li><a href="#">Java</a>
                     <ul class="third_">
-                        <li><a href="https://dongwonttuna.men/program/java/1/">追加される予定です</a></li>
+                        <li><a href="https://dongwonttuna.men/program/java/1/">ここは内容になります。</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Python</a>
@@ -53,28 +54,28 @@
                 </li>
                 <li><a href="#">ウェブ</a>
                     <ul class="third_">
-                        <li><a href="https://dongwonttuna.men/program/web/1/">追加される予定です</a></li>
+                        <li><a href="https://dongwonttuna.men/program/web/1/">ここは内容になります。</a></li>
                     </ul>
                 </li>
             </ul>
         </li>
         </li>
         <li class="first_">
-            <img src="../static/img/Menu2.png" alt="Blockchain" height="55" width="220">
+            <img src="{% static 'img/Menu2.png' %}" alt="Blockchain" height="55" width="220">
             <ul class="second_">
                 <li><a href="https://dongwonttuna.men/blockchain/public/">パブリック ブロックチェーン</a></li>
                 <li><a href="https://dongwonttuna.men/blockchain/nft/">NFT</a></li>
             </ul>
         </li>
         <li class="first_" >
-            <img src="../static/img/Menu3.png" alt="Exam grade" height="55" width="165">
+            <img src="{% static 'img/Menu3.png' %}" alt="Exam grade" height="55" width="165">
             <ul class="second_">
                 <li><a href="https://dongwonttuna.men/grade/school/">学校の成績</a></li>
                 <li><a href="https://dongwonttuna.men/grade/personnel-assessment/">人事評価</a></li>
             </ul>
         </li>
         <li class="first_">
-            <img src="../static/img/Menu4.png" alt="Skills" height="55" width="165">
+            <img src="{% static 'img/Menu4.png' %}" alt="Skills" height="55" width="165">
             <ul class="second_">
                 <li><a href="#">持っている資格</a>
                     <ul class="third_">
@@ -94,7 +95,7 @@
             </ul>
         </li>
         <li class="first_">
-            <img src="../static/img/Menu5.png" alt="Value" height="55" width="165">
+            <img src="{% static 'img/Menu5.png' %}" alt="Value" height="55" width="165">
             <ul class="second_">
                 <li><a href="https://dongwonttuna.men/value/hope/">一緒に歩んでいきたい企業</a></li>
                 <li><a href="https://dongwonttuna.men/value/opinion/">IT業界における考察</a></li>
@@ -106,21 +107,66 @@
     </ul>
     <main>
         <div class="text">
-            <p id="textmain">ここは内容になります。</p>
-            <p id="textmain1">ここは内容になります。</p>
-            <p id="textmain2">ここは内容になります。</p>
-            <p id="textmain3">ここは内容になります。</p>
-            <p id="textmain4">ここは内容になります。</p>
-            <p id="textmain5">ここは内容になります。</p>
-            <p id="textmain6">ここは内容になります。</p>
-            <p id="textmain7">ここは内容になります。</p>
-            <p id="textmain8">ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
+            <p>ここは内容になります。</p>
         </div>
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="../static/js/jquery.min.js"></script>
-    <script src="../static/js/indexjs.js"></script>
+    <script src=".{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/indexjs.js' %}"></script>
 </body>
 <footer>
     ー 最後まで読んでくださり、ありがとうございました。ー
