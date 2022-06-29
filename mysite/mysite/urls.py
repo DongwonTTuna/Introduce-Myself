@@ -20,4 +20,6 @@ from .views import main
 
 urlpatterns = [
     path('', main,),
+    path('/go/1',shift),
+    path('/go/2',kimchi),
 ]
