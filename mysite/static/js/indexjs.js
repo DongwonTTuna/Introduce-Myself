@@ -1,7 +1,3 @@
-function shiftsei(){
-    document.getElementById("textmain").outerHTML = "여기에 내용이 추가됩니다.<br>dddasdfafdsf";
-}
-
 $(document).scroll(function() {
     var y = $(document).scrollTop();
     var result = (y-235)/($(document).height()-235 -$(window).height())*100;
