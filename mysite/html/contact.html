@@ -105,7 +105,7 @@
         </div>
     </ul>
     <main>
-        <form class="row g-3">
+        <form class="">
             <div class="mx-auto" style="width: 400px;">
                     <div class="form-floating">
                         <select class="form-select" id="ff" style="width: 400px; text-align: center;" required>
@@ -129,15 +129,17 @@
                 <div class="ok" style="width: 1000px; margin: 0 auto;">
                 <div class="input-group mb-3" style="width: 400px; float: left;">
                     <div class="input-group has-validation">
-                        <span class="input-group-text" id="basic-addon1">お名前</span>
+                        <label for="nameaaaa" class="form-label"></label>
+                        <span class="input-group-text" id="nameaaaa">お名前</span>
                         <input type="text" class="form-control" id="name" aria-describedby="Name" required>
                     </div>
                 </div>
                 <div class="input-group mb-3" style="width: 400px; margin: auto; margin-top: 30px; ">
-                    <label for="yp" class="form-label"></label>
-                    <input type="text" class="form-control" placeholder="ID" aria-label="Username">
+                    <label for="emaname" class="form-label"></label>
+                    <input type="text" class="form-control" id="emaname" placeholder="ID" aria-label="Username" required>
                     <span class="input-group-text">@</span>
-                    <input type="text" class="form-control" placeholder="gmail.com" aria-label="Server">
+                    <label for="emalast" class="form-label"></label>
+                    <input type="text" class="form-control" id="emalast" placeholder="gmail.com" aria-label="Server" required>
                 </div>
             </div>
                 <textarea name="textarea" id="textarea" cols="90" rows="30" style="margin-top: 30px; " required></textarea>
@@ -145,8 +147,8 @@
             
             
             <div class="form-check form-switch" style="margin-top: 30px;">
-                <input class="form-check-input" type="checkbox" id="ab"style='margin-right:20px; float:none;' required>
-                <label class="form-check-label" for="ab" style="margin:0;">私はボットではありません。</label>
+                <input class="form-check-input" type="checkbox" value="" id="check"style='margin-right:20px; float:none;' required>
+                <label class="form-check-label" for="check" style="margin:0;">私はボットではありません。</label>
             </div>
             <div class="col-12">
                 <button class="btn btn-secondary" type="submit">送信</button>
