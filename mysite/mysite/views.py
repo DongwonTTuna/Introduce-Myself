@@ -6,3 +6,5 @@ def shift(request):
   return render(request, 'sub1.html')
 def kimchi(request):
   return render(request, 'sub2.html')
+def contact(request):
+  return render(request, 'contact.html')
