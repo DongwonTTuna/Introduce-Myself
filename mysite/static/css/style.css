@@ -115,13 +115,12 @@ main{
     padding: 30px;
     height: 100%;
     text-align: center;
+    min-height: 100vh;
 }.maincontents{
     margin-top: 30px;
 }
 #submit{
     margin: 30px;
-} #back{
-    height: 100vh;
 }
 
 
