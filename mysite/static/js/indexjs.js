@@ -24,6 +24,5 @@ purpose.addEventListener('change', (value) => {
         $('.upload-fires').html('<label class="form-label" style="margin-bottom: 40px;">RFIをアップロードしてください</label><br><div class="mb-3"><input type="file" class="form-control" aria-label="file" style=" width : 600px; margin :0 auto;" required></div><div class="mb-3"><input type="file" class="form-control" aria-label="file2" style=" width : 600px; margin :0 auto;" required></div><label class="form-label">希望額</label><div class="input-group mb-3" style="width :400px; margin: 0 auto;"><span class="input-group-text">¥</span><input type="text" class="form-control" aria-label="Yen" required><span class="input-group-text">円</span></div><div style ="margin-bottom: 50px;"></div>');
     } else {
         $('.upload-fires').html('');
-        //$('.upload-fires').css('display', 'none');
     }
 })
