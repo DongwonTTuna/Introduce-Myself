@@ -110,9 +110,8 @@
                     <div class="form-floating">
                         <select class="form-select" id="ff" style="width: 400px; text-align: center;" required>
                             <option selected disabled value="" style="text-align: center;">選択してください</option>
-                            <option value="1">企業</option>
-                            <option value="2">依頼主</option>
-                            <option value="3">学校</option>
+                            <option value="1">法人</option>
+                            <option value="2">個人</option>
                         </select>
                         <label for="ff" class="form-label">どちら様ですか？</label>
                     </div>
@@ -121,37 +120,59 @@
                             <option selected disabled value="">選択してください</option>
                             <option value="1">依頼</option>
                             <option value="2">質問</option>
+                            <option value="2">要請</option>
                         </select>
                         <label for="fa" class="form-label">ご用件はどれですか？</label>
                     </div>
                 </div>
             <div class="mx-auto" style="width: 900px; margin :0 auto; margin-bottom: 0;">
+                <label class="form-label">お客様の情報</label>
                 <div class="ok" style="width: 1000px; margin: 0 auto;">
                 <div class="input-group mb-3" style="width: 400px; float: left;">
                     <div class="input-group has-validation">
                         <label for="nameaaaa" class="form-label"></label>
                         <span class="input-group-text" id="nameaaaa">お名前</span>
-                        <input type="text" class="form-control" id="name" aria-describedby="Name" required>
+                        <input type="text" class="form-control" id="name" placeholder = "東原 優太" aria-describedby="Name" required>
                     </div>
                 </div>
                 <div class="input-group mb-3" style="width: 400px; margin: auto; margin-top: 30px; ">
+                    <span class="input-group-text" id="nameaaaa">Email</span>
                     <label for="emaname" class="form-label"></label>
                     <input type="text" class="form-control" id="emaname" placeholder="ID" aria-label="Username" required>
                     <span class="input-group-text">@</span>
                     <label for="emalast" class="form-label"></label>
                     <input type="text" class="form-control" id="emalast" placeholder="gmail.com" aria-label="Server" required>
                 </div>
+            <div class="input-group mb-3" style="width: 400px; float: left;">
+                <div class="input-group has-validation">
+                    <label for="site" class="form-label"></label>
+                    <span class="input-group-text" id="site">サイト</span>
+                    <input type="text" class="form-control" id="name" placeholder = "https://blog.fc2.com/" aria-describedby="site" required>
+                </div>
+            </div>                
+            <div class="input-group mb-3" style="width: 400px; margin: auto; ">
+                <div class="input-group has-validation">
+                    <label for="tele" class="form-label"></label>
+                    <span class="input-group-text" id="tele">お電話番号</span>
+                    <input type="text" class="form-control" id="name" placeholder = "080-1234-5678" aria-describedby="tele" required>
+                </div>
             </div>
-                <textarea name="textarea" id="textarea" cols="90" rows="30" style="margin-top: 30px; " required></textarea>
+            </div>
+            <label class="form-label" style="margin-top: 20px;">ご内容</label><br>
+            <textarea name="textarea" id="textarea" cols="90" rows="30" style="margin-top: 30px; margin-bottom: 30px;" required></textarea>
+                <div class="upload-fires">
+                </div>
             </div>
             
-            
+
+
             <div class="form-check form-switch" style="margin-top: 30px;">
                 <input class="form-check-input" type="checkbox" value="" id="check"style='margin-right:20px; float:none;' required>
                 <label class="form-check-label" for="check" style="margin:0;">私はボットではありません。</label>
             </div>
+
             <div class="col-12">
-                <button class="btn btn-secondary" type="submit">送信</button>
+                <button class="btn btn-secondary" type="submit" >送信</button>
             </div>
         </form>
     </main>

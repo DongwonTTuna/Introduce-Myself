@@ -118,6 +118,8 @@ main{
     min-height: 100vh;
 }.maincontents{
     margin-top: 30px;
+}.upload-files{
+    display:none;
 }
 #submit{
     margin: 30px;
